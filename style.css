@@ -1,0 +1,225 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.heading {
+    /* display: flex; */
+    position: relative; 
+    top: 100px; 
+    left: 100px;
+    /* right: 60px; */
+    color: yellow;
+    font-size: 35px;
+}
+.head{
+    width:99%;
+    cursor:pointer;
+    font-style: italic; 
+    font-size:large;
+    padding: 8px;
+}
+
+.tail{
+    color:blue;
+    font-size: 35px;
+}
+.plus {
+    float: right;
+    position: relative;
+    top: 68px;
+    right: 40%;
+    border-radius:50%;
+    font-size: 30px;
+    background-color:blue; cursor: pointer;
+}
+.text {
+    color: white;
+    float: right;
+    position: relative;
+    top: 68px;
+    right: 29%;
+    font-style: italic;
+    font-size: 30px;
+}
+.No-item {
+    color: white;
+    position: relative; 
+    top: 150px; 
+    left: 100px;
+    font-size: 25px;
+}
+#popup1 {
+    border: 2px;
+    border-radius: 10px;
+    border-color: skyblue;
+    background-color: white;
+    border-style: solid;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    font-size: 20px;
+     padding-left: 5px;
+     width: 300px;
+     height: 180px;
+     text-align: center;
+        display: none;  
+       z-index: 1;
+}
+.add-new-list {
+    color: orangered;
+    padding-top: 5px;
+}
+.add {
+    /* border: 2px; */
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+    width: 80px;
+    height: 35px;
+    border-color: skyblue;
+    background-color: blue;
+    color: white;
+}
+.add:hover {
+    background-color: orangered;
+    color: black;
+}
+.close:hover {
+    background-color: orangered;
+    color: black;
+}
+
+.input {
+    text-align: center;
+    border-color: aqua;
+    border-radius: 15px;
+    width: 275px;
+    box-shadow: 3px 3px 2px orangered;
+}
+.close {
+    /* border: 2px; */
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    right: 10px;
+    width: 80px;
+    height: 35px;
+    border-color: skyblue;
+    background-color: blue;
+    color: white;
+}
+ #card-container { 
+   display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+/* margin-left: 60px; */
+    /* justify-content: space-around;  */
+ } 
+.card {
+    /* display: block; */
+    margin: 20px;
+   position: relative;
+  top: 30px;
+
+    background-color: white;
+    border-radius: 15px;
+   
+    width: 250px;
+    height: 250px;
+}
+#popup2 {
+    border: 2px;
+    border-radius: 10px;
+    border-color: skyblue;
+    background-color: white;
+    border-style: solid;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    font-size: 20px;
+     padding-left: 5px;
+     width: 300px;
+     height: 180px;
+     text-align: center;
+        display: none;  
+      /* z-index: 1; */
+}
+.add-new-list {
+    color: orangered;
+    padding-top: 5px;
+}
+
+.inp2 {
+    text-align: center;
+    border-color: aqua;
+    border-radius: 15px;
+    width: 275px;
+    box-shadow: 3px 3px 2px orangered;
+}
+
+.addtask {
+    /* border: 2px; */
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+    width: 80px;
+    height: 35px;
+    border-color: skyblue;
+    background-color: blue;
+    color: white;
+}
+.addtask:hover {
+    background-color: orangered;
+    color: black;
+}
+.closetask:hover {
+    background-color: orangered;
+    color: black;
+}
+
+.closetask {
+    /* border: 2px; */
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    right: 10px;
+    width: 80px;
+    height: 35px;
+    border-color: skyblue;
+    background-color: blue;
+    color: white;
+}
+
+.p2 {
+    text-align: center;
+}
+.delete {
+    float: right;
+    position: absolute;
+    top: 220px;
+    right: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color:red;
+    cursor: pointer;
+    font-size: 20px;
+   
+}
+.add1 {
+    float: right;
+    position: absolute;
+    top: 220px;
+    right: 80px;
+    border-radius: 50%;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    font-size: 20px;
+}
