@@ -197,9 +197,10 @@ body {
     color: white;
 }
 
-.p2 {
+ .p2 {
     text-align: center;
-}
+    color: orangered;
+} 
 .delete {
     float: right;
     position: absolute;
@@ -223,3 +224,39 @@ body {
     cursor: pointer;
     font-size: 20px;
 }
+.checked {
+    text-decoration: line-through;
+    color: green;
+}
+.content {
+    color: blue;
+    font-size: 20px;
+}
+#back{
+    display: none;
+    position: absolute; 
+    left: 25px; top:12%;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+
+@media screen and (min-width:240px) and (max-width:600px) {
+
+.text {
+    position: absolute; left: 4%; top: 20%; 
+}
+  
+    #popup1,#popup2{
+        position: absolute; left: 4%; top: 20%;
+
+    }
+    #card-container{
+        align-items: center;
+        flex-wrap:nowrap;
+        flex-direction: column; 
+        height: 100rem;
+    }
+
+    
+ }

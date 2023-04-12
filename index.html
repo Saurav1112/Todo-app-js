@@ -8,33 +8,25 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="head">
+    <div class="head" id="h1">
         <div class="heading" >Tasks <span class="tail">&nbsp; List</span></div>
     </div>
       <div class="topright">
-        <button onclick="showAddCardPop()" id="plusbutton" class="plus">+</button
-        ><span class="text">Add item</span>
+        <button onclick="showAddCardPop()" id="plusbutton" class="plus">+</button>
+        <button id="back" onclick="MainPage()"> BACK </button>
+          <span class="text">Add item</span>
       </div>
     </div>
-    <div class="No-item">No items in the todo list</div>
-     <!-- <div id="popup1">
-      <div class="both">
-        <p class="add-new-task">Add new task</p></div>
-        <hr/>
-        <input type="text" placeholder="Add new task" id="card-input-text" />
-      </div>
-      <div class="buttons">
-        <button onclick="handleAddCard()" id="btn1">Add</button>
-        <button onclick="closeAddCardPopup()" id="btn2">Close</button>
-      </div>
-    </div>  -->
+    <!-- <div class="No-item">No items in the todo list</div> -->
+    
     <div class="pop1" id="popup1">
         <div class="add-new-list">Add New List</div>
         <hr/>
         <input id="card-input-text" type="text" class="input" placeholder="Add New List"/>
          <button onclick="handleAddCard()" class="add" id="btn2">Add</button> 
-        <button onclick="closeAddCardPopup()" class="close" id="btn2">Close</button></div>  
+        <button onclick="closeAddCardPopup()" class="close" id="btn2">Close</button></div> 
 
+        <div id="card-title"></div>
      <div id="card-container"></div> 
 
     <div class="popup2" id="popup2">
